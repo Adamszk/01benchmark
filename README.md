@@ -10,5 +10,9 @@ You have to ensure that you have linux system, the compilers (see make) and time
 ### Summary of my results
 On my system, the programming language that generates the fastest code to do the math is Fortran 03 (optimized). To my surprise the next one is Ada 03.  Then in following order are C 03, Go 03, C++ 03, C, Fortran, Ada, Go, D 03, Pascal, C++, Pascal 03, D, Javascript 03, Javascript, Python, Python 03, Octave 03, Octave.  One may think that all math functions processing time is consistent with overall processing time.  This is not the case.  For example, some math functions in Octave (that can be vectorized) can beat even C compiler and yet the GNU Octave is overall slower than C.  Those who maintain compiler of particular programming language can find these examples as a good reference of his/her algorithm performance.  The is not a programming language comparison or compiler evaluation etc. It is just a test run for math calculation speed to determine which compiler do math fast.   
 ### Screenshot
-Below is a screenshot of benchReport1.ipynb.
+This is a screenshot of benchReport1.ipynb graphical summary of results.
+
 ![Screenshot](time.png)
+![Screenshot](size.png)
+![Screenshot](footprint.png)
+![Screenshot](xminusX.png)
