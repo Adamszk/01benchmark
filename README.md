@@ -15,4 +15,4 @@ This is a screenshot of benchReport1.ipynb graphical summary of results.
 ![Screenshot](time.png)
 ![Screenshot](size.png)
 ![Screenshot](footprint.png)
-![Screenshot](xminusX.png)
+![Screenshot](xminusx.png)
